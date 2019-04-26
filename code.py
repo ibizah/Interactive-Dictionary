@@ -7,7 +7,7 @@ def translation(w):
 if word in data:
     print(translation(word))
 else:
-     closest=get_close_matches(word, data, n=5, cutoff=0.5)
+    closest=get_close_matches(word, data, n=5, cutoff=0.5)
 
     choice=input(f' which one do you mean {closest} ? \n')
     if choice in closest:
