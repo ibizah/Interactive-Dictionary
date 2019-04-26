@@ -1,4 +1,5 @@
 import json
+from difflib import get_close_matches
 data = json.load(open('data (1).json'))
 word= input('Enter the word : \n')
 def translation(w):
